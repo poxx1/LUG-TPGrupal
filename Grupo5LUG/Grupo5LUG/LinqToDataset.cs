@@ -1,6 +1,12 @@
-﻿using System.Data;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Text;
+using System.Xml.Linq;
+using System.Xml;
 
 namespace Grupo5LUG
 {
@@ -49,13 +55,30 @@ namespace Grupo5LUG
             }
 
             ds2.Tables.Add(t1);
-
+            
             return ds2;
         }
 
         public DataSet ConsultaXML()
-        { 
-        
+        {
+            DataSet ds = new DataSet();
+
+            StringBuilder result = new StringBuilder();
+
+
+
+            //Cargo el XML
+
+            XDocument xdoc = XDocument.Load("data.xml");
+
+            //Tiro la query
+           // IEnumerable<XElement> servers = xdocument.Root.Elements();
+            //foreach (var server in servers)
+            //{ 
+            
+            //}
+
+            return ds;
         }
     }
 }

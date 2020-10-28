@@ -21,7 +21,7 @@ namespace Grupo5LUG
         {
             LinqToDataset lq = new LinqToDataset();
 
-            var ds = lq.consulta();
+            var ds = lq.ConsultaSQL();
 
             dataGridView1.DataSource = null;
             //dataGridView1.DataSource = ds;
@@ -29,7 +29,7 @@ namespace Grupo5LUG
             dataGridView1.DataSource = ds.Tables[0];
 
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

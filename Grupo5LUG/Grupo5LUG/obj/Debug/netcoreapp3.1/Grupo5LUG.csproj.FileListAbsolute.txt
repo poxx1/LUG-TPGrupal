@@ -3,7 +3,6 @@ C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debu
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.csproj.GenerateResource.cache
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.AssemblyInfoInputs.cache
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.AssemblyInfo.cs
-C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.csproj.CoreCompileInputs.cache
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\bin\Debug\netcoreapp3.1\Grupo5LUG.exe
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\bin\Debug\netcoreapp3.1\Grupo5LUG.deps.json
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\bin\Debug\netcoreapp3.1\Grupo5LUG.runtimeconfig.json
@@ -20,3 +19,4 @@ C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debu
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.dll
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.pdb
 C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.genruntimeconfig.cache
+C:\Users\julian.lastra\Documents\C#\G5\LUG-TPGrupal\Grupo5LUG\Grupo5LUG\obj\Debug\netcoreapp3.1\Grupo5LUG.csproj.CoreCompileInputs.cache
