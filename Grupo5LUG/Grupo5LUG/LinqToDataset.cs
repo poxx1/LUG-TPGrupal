@@ -59,26 +59,6 @@ namespace Grupo5LUG
             return ds2;
         }
 
-        public DataSet ConsultaXML()
-        {
-            DataSet ds = new DataSet();
-
-            StringBuilder result = new StringBuilder();
-
-
-
-            //Cargo el XML
-
-            XDocument xdoc = XDocument.Load("data.xml");
-
-            //Tiro la query
-           // IEnumerable<XElement> servers = xdocument.Root.Elements();
-            //foreach (var server in servers)
-            //{ 
-            
-            //}
-
-            return ds;
-        }
+     
     }
 }
