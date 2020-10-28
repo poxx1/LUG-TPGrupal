@@ -454,7 +454,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julian.lastra\\.nuget\\packages\\": {}
+    "C:\\Users\\julianadm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -462,11 +462,11 @@
       "projectUniqueName": "C:\\Users\\julian.lastra\\Documents\\C#\\G5\\LUG-TPGrupal\\Grupo5LUG\\Grupo5LUG\\Grupo5LUG.csproj",
       "projectName": "Grupo5LUG",
       "projectPath": "C:\\Users\\julian.lastra\\Documents\\C#\\G5\\LUG-TPGrupal\\Grupo5LUG\\Grupo5LUG\\Grupo5LUG.csproj",
-      "packagesPath": "C:\\Users\\julian.lastra\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\julianadm\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\julian.lastra\\Documents\\C#\\G5\\LUG-TPGrupal\\Grupo5LUG\\Grupo5LUG\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\julian.lastra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julianadm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

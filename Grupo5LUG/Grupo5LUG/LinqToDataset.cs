@@ -6,8 +6,10 @@ namespace Grupo5LUG
 {
     class LinqToDataset
     {
-        public void consulta()
+        public DataSet ConsultaSQL()
         {
+         //   Form1 f1 = new Form1();
+
             //1. Genero lo necesario para realizar la consulta
             //El connection string y la query a realizar.
             string connectString = @"Server=AR-NB-415\SQLEXPRESS; Initial Catalog=ElasticSearch;Integrated Security=True";
@@ -21,23 +23,39 @@ namespace Grupo5LUG
 
             //Creo un nuevo dataset el cual va a contener la informacion que me traigo de la BD.
             DataSet ds = new DataSet();
+            DataSet ds2 = new DataSet();
+
+            DataTable t1 = new DataTable("Servers");
+
+            t1.Columns.Add("Server Name");
+            t1.Columns.Add("Server Status");
+            
             da.Fill(ds);
             
             //Creo una datatable para contener la informacion.
             DataTable servers = ds.Tables["Servers"];
 
             //Lleno la tabla con los campos que necesito utilizando LinQ
-            var query = from d in servers.AsEnumerable()
+            var query = from s in servers.AsEnumerable()
                         select new
                         {
-                            Name = d.Field<string>("Name"),
-                            Status = d.Field<string>("Status")
+                            Name = s.Field<string>("Name"),
+                            Status = s.Field<string>("Status")
                         };
 
             foreach (var q in query)
             {
-                //Console.WriteLine("Server Name = {0}, Status = {1}", q.Name, q.Status);
+                t1.Rows.Add(q.Name,q.Status);
             }
+
+            ds2.Tables.Add(t1);
+
+            return ds2;
+        }
+
+        public DataSet ConsultaXML()
+        { 
+        
         }
     }
 }
